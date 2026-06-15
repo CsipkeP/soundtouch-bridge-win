@@ -1,0 +1,63 @@
+# =========== Build outputs ===========
+bin/
+obj/
+publish/
+dist/
+out/
+
+# =========== Visual Studio / VS Code / Rider ===========
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.sln.docstates
+*.DotSettings.user
+
+# =========== MSBuild ===========
+*.cache
+*.tlog
+*.tmp
+*.lastbuildstate
+*.pidb
+*.svclog
+*.scc
+
+# =========== Compiled / package artefacts ===========
+*.pdb
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+
+# =========== Test / coverage ===========
+[Tt]est[Rr]esult*/
+[Cc]overage*/
+*.coverage
+*.coveragexml
+
+# =========== Claude Code / agent session data ===========
+.claude/
+CLAUDE.md.local
+
+# =========== OS files ===========
+Thumbs.db
+ehthumbs.db
+.DS_Store
+desktop.ini
+
+# =========== Editor temp files ===========
+*.swp
+*~
+
+# =========== Local / development settings ===========
+appsettings.Development.json
+appsettings.Local.json
+*.local.json
+
+# =========== Logs and screenshots backups ===========
+*.log
+*.bak
+*.bak.*
